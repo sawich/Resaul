@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  resaul.app:
+    image: resaul.app
+    build:
+      context: .
+      dockerfile: Resaul.App/Dockerfile
